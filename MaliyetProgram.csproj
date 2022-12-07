@@ -1,0 +1,356 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7C678D3F-BF6A-42EE-ADE9-030543AAC1D9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MaliyetProgram</RootNamespace>
+    <AssemblyName>MaliyetProgram</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>bahar1.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.CrystalReports.Engine.13.0.2000.0.Fakes">
+      <HintPath>FakesAssemblies\CrystalDecisions.CrystalReports.Engine.13.0.2000.0.Fakes.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource.13.0.2000.0.Fakes">
+      <HintPath>FakesAssemblies\CrystalDecisions.ReportSource.13.0.2000.0.Fakes.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared.13.0.2000.0.Fakes">
+      <HintPath>FakesAssemblies\CrystalDecisions.Shared.13.0.2000.0.Fakes.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms.13.0.2000.0.Fakes">
+      <HintPath>FakesAssemblies\CrystalDecisions.Windows.Forms.13.0.2000.0.Fakes.dll</HintPath>
+    </Reference>
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DovizKurlari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DovizKurlari.Designer.cs">
+      <DependentUpon>DovizKurlari.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogoTigerBagla.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogoTigerBagla.Designer.cs">
+      <DependentUpon>LogoTigerBagla.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MALIYETDataSet1.cs">
+      <DependentUpon>MALIYETDataSet1.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MALIYETDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MALIYETDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MALIYETDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MALIYETDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MALIYETDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MALIYETDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MustariMaliyetCalisma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MustariMaliyetCalisma.Designer.cs">
+      <DependentUpon>MustariMaliyetCalisma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Musteri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Musteri.Designer.cs">
+      <DependentUpon>Musteri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MusteriDataSet.cs">
+      <DependentUpon>MusteriDataSet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MusteriDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MusteriDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MusteriMaliyetBaslik.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MusteriMaliyetBaslik.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MusteriMaliyetSatir.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MusteriMaliyetSatir.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MusteriVerilenTeklifler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MusteriVerilenTeklifler.Designer.cs">
+      <DependentUpon>MusteriVerilenTeklifler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MusteriVerilenTekliflerTarih.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MusteriVerilenTekliflerTarih.Designer.cs">
+      <DependentUpon>MusteriVerilenTekliflerTarih.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sifre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sifre.designer.cs">
+      <DependentUpon>Sifre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StokKart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StokKart.Designer.cs">
+      <DependentUpon>StokKart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MALIYETDataSet.cs">
+      <DependentUpon>MALIYETDataSet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MALIYETDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MALIYETDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Uretim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Uretim.Designer.cs">
+      <DependentUpon>Uretim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UretimYenile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UretimYenile.Designer.cs">
+      <DependentUpon>UretimYenile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UrunAgaci.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UrunAgaci.Designer.cs">
+      <DependentUpon>UrunAgaci.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="DovizKurlari.resx">
+      <DependentUpon>DovizKurlari.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogoTigerBagla.resx">
+      <DependentUpon>LogoTigerBagla.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MustariMaliyetCalisma.resx">
+      <DependentUpon>MustariMaliyetCalisma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Musteri.resx">
+      <DependentUpon>Musteri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MusteriVerilenTeklifler.resx">
+      <DependentUpon>MusteriVerilenTeklifler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MusteriVerilenTekliflerTarih.resx">
+      <DependentUpon>MusteriVerilenTekliflerTarih.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sifre.resx">
+      <DependentUpon>Sifre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StokKart.resx">
+      <DependentUpon>StokKart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Uretim.resx">
+      <DependentUpon>Uretim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UretimYenile.resx">
+      <DependentUpon>UretimYenile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UrunAgaci.resx">
+      <DependentUpon>UrunAgaci.cs</DependentUpon>
+    </EmbeddedResource>
+    <Fakes Include="Fakes\CrystalDecisions.CrystalReports.Engine.fakes" />
+    <Fakes Include="Fakes\CrystalDecisions.ReportSource.fakes" />
+    <Fakes Include="Fakes\CrystalDecisions.Shared.fakes" />
+    <Fakes Include="Fakes\CrystalDecisions.Windows.Forms.fakes" />
+    <None Include="MALIYETDataSet.xsc">
+      <DependentUpon>MALIYETDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="MALIYETDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MALIYETDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MALIYETDataSet.xss">
+      <DependentUpon>MALIYETDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="MALIYETDataSet1.xsc">
+      <DependentUpon>MALIYETDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="MALIYETDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MALIYETDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MALIYETDataSet1.xss">
+      <DependentUpon>MALIYETDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="MALIYETDataSet2.xsc">
+      <DependentUpon>MALIYETDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="MALIYETDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MALIYETDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MALIYETDataSet2.xss">
+      <DependentUpon>MALIYETDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="MALIYETDataSet3.xsc">
+      <DependentUpon>MALIYETDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="MALIYETDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MALIYETDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MALIYETDataSet3.xss">
+      <DependentUpon>MALIYETDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="MusteriDataSet.xsc">
+      <DependentUpon>MusteriDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="MusteriDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MusteriDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MusteriDataSet.xss">
+      <DependentUpon>MusteriDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="MusteriMaliyetBaslik.xsc">
+      <DependentUpon>MusteriMaliyetBaslik.xsd</DependentUpon>
+    </None>
+    <None Include="MusteriMaliyetBaslik.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MusteriMaliyetBaslik.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MusteriMaliyetBaslik.xss">
+      <DependentUpon>MusteriMaliyetBaslik.xsd</DependentUpon>
+    </None>
+    <None Include="MusteriMaliyetSatir.xsc">
+      <DependentUpon>MusteriMaliyetSatir.xsd</DependentUpon>
+    </None>
+    <None Include="MusteriMaliyetSatir.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MusteriMaliyetSatir.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MusteriMaliyetSatir.xss">
+      <DependentUpon>MusteriMaliyetSatir.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bahar1.ico" />
+    <None Include="Resources\musteri.jpg" />
+    <None Include="Resources\save.jpg" />
+    <None Include="Resources\yenikayıt.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

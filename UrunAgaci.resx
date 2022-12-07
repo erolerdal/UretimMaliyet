@@ -1,0 +1,771 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="urunIdLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="urunKoduLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="urunAdiLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="urunCinsiLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="urunUreticiFirmaLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="urunOrjinalKoduLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="urunBarkoduLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="urunResmiLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="urunOlcuBrimi1Label.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="urunOlcuBrimi2Label.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="urunOlcuBrimi3Label.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="urunCarpan2Label.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="urunCarpan3Label.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="urunBolen2Label.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="urunBolen3Label.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="urunEniLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="urunBoyuLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="urunYuksekligiLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="urunÇapı1Label.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="urunÇapı2Label.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="urunAlinFirmaLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="urunAlimFiyatLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="urunDovizTutariLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="urunAlimTarihiLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="urunOzelKod1Label.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="urunOzelKod2Label.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="urunOzelKod3Label.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="urunOzelKod4Label.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="urunOzelKod5Label.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="urunAnaRenkLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="urunAltRenkLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="urunRevizyonNoLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="urunRevizyonTarihLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="urunRevizyonKullaniciLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="urunRevizyonOnayLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="urunAciklamaLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="urunSatisFiyatLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="urunArtıAdi1Label.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="urunArtıFiyat1Label.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="urunArtıYuzde1Label.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="urunGenelToplamLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="urunAnaGrupLabel1.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="urunAltGrupLabel1.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="urunTaliGrupLabel1.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="label1.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="label2.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="label3.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="label4.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="label13.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="label5.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="urunDovizCinsiLabel1.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="receteIdLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="urunIdLabel1.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="urunKoduLabel1.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="urunAdiLabel1.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="revizyonNoLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="yariMamulAdiLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="taliYariMamulAdiLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="kullanimMiktariLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="brimTutariLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="toplamTutarLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="dovizCinsiLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="birimDovizTutarLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="toplamDovizTutarLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="aciklamaLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="malzemeIdLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="malzemeKoduLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="malzemeAdiLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="malzemeResmiLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="orjMalzemeOlcuBrim1Label.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="orjMalzemeOlcuBrim2Label.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="orjMalzemeOlcuBrim3Label.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="orjMalzemeCarpan2Label.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="orjMalzemeCarpan3Label.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="orjMalzemeBolen2Label.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="orjMalzemeBolen3Label.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="orjSonAlisFiyatiLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="orjSonDovizAlisFiyatiLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="ilaveadiLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="ilavebrimtutaryuzdeLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="ilavebrimolcuyuzdeLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="olcuBirimiLabel1.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="parcaTanimiLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="urunAgaciBindingNavigator.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>702, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="bindingNavigatorAddNewItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADrwAAA68AZW8ckkAAAFNSURBVDhPY2AYtODuAvb/t+Zx/r86h+v/xRm8/0l26HWg
+        xj+PGv//edjw/+RkAdINOD+dF27AwR4R0g04PkkQaHvd/z8Pqv7vaBcnbMClmTz/z07l+38SqPFIv9D/
+        fd0iQM3l///eK/q/vkHm/6oauf9LKxX/zy9V/j+rSBXTwFNAf/55WA/UVAvElf//3CsB4rz/f+9m/v97
+        J/n/39tx///djADikP+TcjQxDTjUKwx27t/7pUCNBUCN2UCNqUCNCf//3YoGagz7/+9G0P9/1/3+d6Xp
+        Yhqws13i/5Zmqf/rwM6V/7+kQvH/31sxQI3h/6fmafyfkKX1vztD9397qv7/5kRDwmEyG+hPkHP/3Qj4
+        35OhQ1gDekIB+fPfDX8g9vvfmqxPugHd6bpg/4JwfZwR6Qa0JBn8b4g3/F8Ta/y/MtqEdANITvvkagAA
+        JCPYnqPoI1MAAAAASUVORK5CYII=
+</value>
+  </data>
+  <metadata name="urunAgaciBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>165, 17</value>
+  </metadata>
+  <metadata name="mALIYETDataSet1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="bindingNavigatorDeleteItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADrwAAA68AZW8ckkAAAFvSURBVDhPrZJNKMNxGMd3Vd5KubigVg4j0/ISEjIkLDIh
+        MkPagYNIaBcHB1Iu5ICL5EBSUk60OM3b5q01tf5Lk9Iu+Mfl9zEWpf3xJ7/Lc/h9n8/zfL89Gs1/PDxu
+        sJnA6eBPPNYWEd1VCIsRdja/hXDtg5W5zxo2lqDPjOgwIjorYGFKEfK6obCUwVhv5D+nzjCk3oBoyof+
+        5k8iMdKFMOfAtP17myzPIirT3kCMdoH3DCYGw9BQVZURPg+0FIUtmbIQDbkw0Kqu+X0CB3uhlXMR1elQ
+        q/9lc0CCpgLITkDWx3Ovj4U6gzoIAT+Y86AwiaC1Gi6O38K91YUgq/M/BHh3C20lPBQn4y1NJ7i/+9HA
+        eD8ubQyy+1AZwvMTDFuhJIUTXSLBrfUI4U15BlJ7DfK1X+EO9raRcxJxpUYh9TSC/Kg4yaGNQ3Y5FQAz
+        Y0hp0XiNmSBdfelVttvg/EgBcOmCySE42leXtqqLUiF6AYojAxxFb0PyAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="bindingNavigatorMoveFirstItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADrwAAA68AZW8ckkAAAErSURBVDhPY2AYNKBw1vP/TQue/8+c+Pg/LkeFtz/AKceQ
+        O/PZ/1VH3v/HpSi++8H/4IZruA3ImPL0/8J9H7Aqiu95+H/p/v///asv4DYgoefJ/2lb3mMoimi/D9ac
+        Oev/f6/SE7gNiOx69L939QcURaGt98CaW9cBbe/8+98l/wBuAwKbH/6vm/8Orii45e7/RXv//+8Aas6Y
+        8/O/Xd3P//YZ23Eb4FF1/3/+tDcoiuyKb/9Pn/P7v3/Xt/86he/+WySsx22Afend/9mTX2Mo0k85/9+k
+        6MV/laxP/40jl+E2wCLvzv/U/tdYFRkknfgvm/b1v27wPNwGGGbd/h/W8hKnIv3Uy/81fKfhNkAn7cZ/
+        v+qHeBWpeEzAbYBT7pX/IAV4FQ2ajIfsEADwdsCrEsAoJgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="bindingNavigatorMovePreviousItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADrwAAA68AZW8ckkAAAC9SURBVDhPY2AYMiC8/cF/sh0b3/3gf3DDNfIMiO95+H/p
+        /v///asvkG5ARPt9sObMWf//e5WeIM2A0NZ7YM2t64C2d/7975J/gHgDglvu/l+09///DqDmjDk//9vV
+        /fxvn7GdeANAoW1XfPt/+pzf//27vv3XKXz33yJhPWkGgAzRTzn/36ToxX+VrE//jSOXkW4AyBCDpBP/
+        ZdO+/tcNnkeeAWCXpF7+r+E7jXwDQIaoeEygzACykzHNNQIA0BRgmJLkyxEAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="bindingNavigatorMoveNextItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADrwAAA68AZW8ckkAAACrSURBVDhPY2AYdKBw1vP/FDkqd+az/wnd98g3JGPK0//z
+        9v/+n9B1hzxDEnqe/J+979f/zq1//7uVXibdkMiuR/+nbPv1v2Tp3/8J0//+t8k9S5ohgc0P/7eufQ/W
+        bFzy5b909LX/xpHLiDfEo+r+/5K57+CaFV16iNcMij770rv/A1uegW0mWTPIAIu8O/9tCq6QpxlkgGHW
+        bfI1gwzQSbtBmp8pSraDQjMAoH5foAtinnYAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="bindingNavigatorMoveLastItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADrwAAA68AZW8ckkAAAEwSURBVDhPY2AYVKBw1vP/uBwEkmta8Px/5sTHONUw5M58
+        9j+h+x5WBSC5VUfe/w9vf4DbgIwpT//P2//7f0LXHQxFILmF+z78D264htuAhJ4n/2fv+/W/c+vf/26l
+        l1EUguSmbXn/37/6Am4DIrse/Z+y7df/kqV//ydM//vfJvcsXDFIrnf1h/9epSdwGxDY/PB/69r3YM3G
+        JV/+S0df+28cuQysASRXN//df5f8A7gN8Ki6/79k7ju4ZkWXHrhikFz+tDf/7TO24zbAvvTu/8CWZ2Cb
+        kTWDXACSy578+r9FwnrcBljk3flvU3AFQzPIAJBcav9ruJewphfDrNtYNYMUg+TCWl7+1w2eh9sFOmk3
+        cEqC5PyqH/7X8J2G2wB8+cop98p/FY8JYDyo8h8DAL7Rv7NFZsfDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="urunAgaciBindingNavigatorSaveItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADrwAAA68AZW8ckkAAAIpSURBVDhPrZPdS5NxFMf3L3TfTdBFtzU1hmuxGjzlHMqq
+        YVgRvT2RL+XSZZqoWJlGLV8gW+HSScvpJJxU+AamSI2hTCVLM1e0xKGm2EQw+PY7v+j5tTJv6gfn8vM5
+        zznn+6hU/+M9exoFla99GW3eJTx2L6CxIYL7jhnU1nyC/XYIN8qnUFoygcKC18jLHcWF80EovQns7QFq
+        qlex0VtZXYMxrReH057wUgTe1kUuqKz48lee4MjCCnabn0OtlmE55BEC96N5Ligt+byu4Cf8PryIOJMP
+        BZenccDcJATO+lkuuGR794fgV3hkMoJtkhfWnHGkpjiFoO5umAuys0ZjBL/Dg8EwNuvdkOUATCaHEFRX
+        feQC+UxAEawH9/g/YFNiA44cfYGkpFohuFk5je4usFMCx0++guXYAN82LYxmps+mzj/gPhy0dEKS7EJw
+        tWwSHT6wDABNrm/s7l9Rfn2OL5UWRjNnZgQVODm1HQZDhRBcKRyHpxl46FxjwYnCmJ4TU+YTNqSfK+Kd
+        k1MYvN8Dvb5MCGx5YwwGqu5EeWcSUEjitBKG3s5ibGoOcu417DW2cVi7xwWdrkgIKJaOe1A+mwQEn82/
+        hTeheYRmlnCx2I54vYvBjYjf9QDaxHwhyMwYZnMv85m3GjzYskNCS0c/fF2D6O7zY+DlEPaZLFDr6pHA
+        4O2aOmg01ljB6VP9PJ6UMAoJ3ZlORdumhdHM1JWK4J0J2ULwL3/0d2xoOmtKzOuNAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <metadata name="ilaveadi.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ilavebrimtutaryuzde.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ilavebrimolcuyuzde.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ParcaTanimi.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="urunReceteBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>305, 56</value>
+  </metadata>
+  <metadata name="mALIYETDataSet2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>157, 56</value>
+  </metadata>
+  <metadata name="dovizBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>165, 95</value>
+  </metadata>
+  <metadata name="mALIYETDataSet3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 95</value>
+  </metadata>
+  <metadata name="openFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 56</value>
+  </metadata>
+  <metadata name="urunAnaGrupToolStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>157, 41</value>
+  </metadata>
+  <metadata name="fillToolStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>29, 41</value>
+  </metadata>
+  <metadata name="urunReceteTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>497, 56</value>
+  </metadata>
+  <metadata name="tableAdapterManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>684, 56</value>
+  </metadata>
+  <metadata name="dovizTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>324, 95</value>
+  </metadata>
+  <metadata name="tableAdapterManager2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>478, 95</value>
+  </metadata>
+  <metadata name="reportDocument1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>656, 95</value>
+  </metadata>
+  <metadata name="urunAgaciTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>351, 17</value>
+  </metadata>
+  <metadata name="tableAdapterManager.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>531, 17</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>192</value>
+  </metadata>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAMAEBAAAAEAIABoBAAANgAAACAgAAABACAAqBAAAJ4EAAAwMAAAAQAgAKglAABGFQAAKAAAABAA
+        AAAgAAAAAQAgAAAAAAAABAAAww4AAMMOAAAAAAAAAAAAAN3b2v/d29r/3dva/8G/vv/S0ND/wL69/9DO
+        zf/Fw8L/wsC//7+9vP/OzMv/ycfG/8bEw//Mysn/19XU/9bU0//d29r/3dva/93b2v+xr67/trS0/6im
+        pf/CwL//o6Gg/8PBwP+1s7P/r62t/6Ohof+8u7r/0M7N/9fV1P/W1NP/3dva/93b2v/d29r/3NrZ/9za
+        2f/b2dj/29nX/9rY1//Z19f/2dfW/9jW1f/Y1tX/2NbV/9fV1P/X1dT/1tTT/9jW1f9FQkX/V1ZW/66s
+        rP+sqqv/kpGR/9PR0f+bmZn/qKam/7+9vf9/fn//xMPD/5aUlP+Yl5f/zcvK/4+Mjf/X1dX/h4WH/5GP
+        kf/GxMT/PTw9/09OUP/a2Nf/jYyN/56cnP+7ubj/bGts/z4+QP+0srH/h4WF/3l4ef+zsrH/19XV/zY0
+        N/81Mzb/2tnY/4B+f/+FhIb/2tjW/z8+Qf86OTv/urm5/6Gfn/9ZWVv/09HQ/4SCg/94d3j/gH+A/9fV
+        1f+EgoT/j42O/9PRz/+Af4D/sbCw/9nY1/+NjY7/npyd/7q5uf/Jx8f/YmFi/9jW1f+Miov/zszM/3h2
+        d//Z19b/TUxO/2BfYP/c2tn/vLq6/9TS0f/a2Nf/oJ+e/62rqv/BwL//2NbV/7e2tf/Y1tX/k5GQ/01M
+        TP+vra3/3dva/93b2v/d29r/3NrZ/9za2f/b2df/29nX/9vY1//a19b/2dfV/9fW1f/Y1tX/2NbV/9fV
+        1P/Y1dT/19TT/93b2v/d29r/3dva/9za2f/c2tj/2tnY/9vZ1v/a2Nb/2djV/9nX1v/Y1tX/2NbV/9jW
+        1f/X1dT/19XU/9bU0//d29r/3dva/93b2v/c2tn/3NrZ/8rNzv+isLr/orC6/6Kwuf+ir7j/u8HH/9jW
+        1f/Y1tX/19XU/9fV1P/W1NP/3dva/93b2v/d29r/3NrZ/9za2P+3v8X/kKKy/5aotP+Emaz/nKy6/5Wm
+        sv/Y1tX/2NbV/9fV1P/X1dT/1tTT/93b2v/d29r/3dva/9za2f/c2tn/yMzO/6Gvu//LztD/rLe+/73E
+        yv+xusD/2NbV/9jW1f/X1dT/19XU/9bU0//d29r/3dva/93b2v/c2tn/3NrY/9vZ2P+Kna3/w8nO/6q2
+        vv+Emaj/09TU/9jW1f/Y1tX/19XU/9fV1P/W1NP/3dva/93b2v/d29r/3NrZ/9za2f/b2dj/wMbL/26H
+        nf9igJf/sLrC/9jW1f/Y1tX/2NbV/9fV1P/X1dT/1tTT/93b2v/d29r/3dva/9za2f/c2tn/29nY/9rZ
+        1//U1tb/1NXU/9nX1f/Y1tX/2NbV/9jW1f/X1dT/19XU/9bU0/8AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAAAACAAAABAAAAAAQAgAAAA
+        AAAAEAAAww4AAMMOAAAAAAAAAAAAAN3b2v/d29r/3dva/93b2v/d29r/3dva/93b2v/c2tn/3NrZ/9za
+        2f/b2dj/29nY/9vZ2P/a2Nf/2dfW/9rY1//a2Nf/2dfW/9nX1v/Z19b/2NbV/9jW1f/Y1tX/2NbV/9jW
+        1f/Y1tX/19XU/9fV1P/X1dT/19XU/9bU0//W1NP/3dva/93b2v/d29v/3dva/93b2v/b2dn/hYKC/8bE
+        w/+1s7P/3NrZ/5GPj/+5t7f/tLKx/9bU1P+XlZT/ycfH/5COjf/GxMP/raqq/52bmv/EwsH/xsTD/8XD
+        wv+xr6//0c/P/5aUk/+pp6f/19XU/9fV1P/X1dT/1tTU/9bU0//d29r/3dva/93b2//d29r/3dva/93b
+        2v9fXF3/2dfX/4OAgf/c2tr/rKqq/5+dnf+lo6L/1dPT/1NRUf/DwMH/pKKi/9nX1v+in6D/oJ6f/727
+        uv++vbz/sa+t/1dVVf/Pzcz/lJKS/7y6uv/X1dT/19XU/9fV1P/W1NT/1tTT/93b2v/d29r/3dzZ/93b
+        2v/d29r/3dvZ/7y6uv/Pzcz/oZ+f/9jW1f+TkZD/wb++/7i3tP/X1dT/qqin/8vJyP+2tLP/2dfW/8XD
+        wv/Pzcz/nJqZ/6ako//Fw8P/wL69/9PS0P+7ubj/19XT/9fW0v/X1dT/19XT/9bV0v/W1NP/3dva/93b
+        2f/d3Nj/3dva/93b2v/d29n/3NvZ/9vZ2P/c2tn/3NrZ/9vZ2P/b2tb/29rX/9rY1v/a2Nf/2tjX/9rY
+        1//Z19b/2dfW/9nX1v/Y1tX/2NbV/9jW1v/Y1tX/2NbV/9jW1f/X1dT/19bT/9fV1P/X1dP/1tXR/9bU
+        0//d29r/3dva/93b2//d29z/3dvb/93b2v/c2tn/3Nra/9za2f/c2tn/29nY/9vZ2P/b2dn/2tjX/9rY
+        1//a2Nf/2tjX/9nX1//Z19b/2NbW/9jW1v/Y1tb/2NbV/9jW1f/Y1tb/2NbV/9fV1f/X1NX/19XU/9fV
+        1P/W1NT/1tTT/93b2v/V09P/YF5g/2BdYP9gXl//o6Kh/9za2f+KiYn/s7Gy/9za2f/b2dn/fXx7/8TC
+        wv/Z19b/dnR0/9rY2P/a2Nb/i4iJ/7Gvrv/Y1tX/bGtr/7y6u//Y1tX/19XV/3Bub//OzMv/09HQ/3d1
+        d//Y1dP/0M7N/2NgYv/Fw8L/3dva/9LQz/8iICP/MS4x/y8tL/8qKir/2djX/3d2d/9jYmT/vLu8/7W1
+        tv85ODn/19XV/9jW1v9CQUL/2djX/9rY1v9jYGP/nZub/9jX1v9hYWL/c3J1/7m5uP+qqKv/REJD/9fV
+        1P/R0M7/RkVH/9jW0/+2tLT/Pzw//9XT0v/d29r/0tDP/zIwM//d29v/2djY/0dGSf/JyMf/sK6u/yAf
+        If8hICH/IB8h/11bXf/b2dn/2NbW/0JBQv/Z2Nf/2tjW/2NgY/+dm5v/2dfW/5mYmf8gHyH/IB8g/yAf
+        I/94dnf/2NbV/9HQzv9GRUf/1tXU/3x7ff97e3v/1tTT/93b2v/S0M//MTAz/93b2v/Z19j/SUhL/8jG
+        x//X1dT/NDM0/4B+gP9BQET/fnx+/9vZ2P/Y1tb/QkFD/9nY2P/Z2Nf/Y2Fj/52bm//Z19b/y8nJ/y0r
+        Lv+FhIb/NTQ4/6ekpf/Y1tX/0dDO/zIxM/9eXl7/MjE1/6SkpP/W1NP/3dva/9LQz/8jISX/Ozk6/zg2
+        OP8nJij/2dfY/9za2P9oZmf/n56f/0lIS/+2tbb/29nY/9jW1v84Nzr/OTg6/zk5Of8pKCv/nJub/9nX
+        1v/Y1tX/VFJU/6Cgof8pKSz/xcTD/9jW1f/Rz87/KSgq/ywqK/8qKSv/RURG/9XT0v/d29r/0tDP/yUk
+        Jv9VUlb/UU5R/yUjJv/Y1tb/3NrZ/6Ogof9VU1X/Pj1A/9fX1v/b2tf/2NbW/zk4PP9TUlX/U1JU/zIx
+        NP+cmpz/2dfW/9jW1f9/fX7/U1NU/0hJSv/X1tT/2NbV/9HQzv9EQkb/y8jJ/8HAv/8tKy//u7m4/93b
+        2v/Rz8//MjAz/93b2v/c2tv/U1BT/8bEwv/c2tn/zMrK/yIhI/9vbm//29nY/9vZ1//Y1tX/QkFE/9jZ
+        1//Z2Nf/YmBi/5yam//Z19b/2NbV/6Siov8gHyH/gYCA/9jW1f/Y1tT/0tDO/0hESf/X1tT/2NbU/0tH
+        S/+urKv/3dva/9LPz/8xLjP/0NHQ/8zMy/8/Pz//zcvK/9za2f/Z19f/Ojk7/6Cfn//b2dj/29nY/9jW
+        1v9CQUT/2NnX/9rY1/9jYWL/nJqc/9nX1v/Y1tX/0M7O/y4tLv+5t7f/2NbV/9jW1f/Rz8//RkNF/8vK
+        y/++vb3/Kygs/727uv/d29r/0c/P/yEfI/8gHyH/IB8h/zIxMv/a2dj/3NrZ/9za2f90cnP/wL69/9vZ
+        2P/b2dn/2NfV/0NBQv/Z2df/2tjX/2NhYv+cmpv/2dfW/9jW1f/Y1tX/b25u/9bU0//Y1tX/2NbV/9LQ
+        z/8pJyj/IR8h/yAgIP9OTE7/1dPS/93b2v/X1dT/enl6/3p5ev96eHn/s7Kz/9za2v/c2tn/3NrZ/8XD
+        wv/a2Nf/29nY/9vZ2f/Z19X/i4mK/9rY1//a2Nf/nJqZ/7m4t//Z19b/2NbV/9jW1f/Avr7/2NbV/9jW
+        1f/Y1tX/1NLR/3x6ev94dnb/e3l5/8LAwP/W1NP/3dva/93b2v/c29r/3dzZ/93b2f/d29r/3NrZ/9za
+        2f/c29j/3NrZ/9vZ2P/b2dj/29nY/9rZ1v/a2Nf/2tjX/9rY1v/Z19X/2djV/9nX1f/Y1tX/2NbV/9jW
+        1f/Y1tX/2NbV/9jW1f/X1dT/19XU/9fV1P/X1dX/1tTU/9bU0//d29r/3dva/93b2v/d29r/3dva/93b
+        2v/c2tn/3NrZ/9za2f/c2tn/29nY/9va1//c2df/3NjX/9vX1v/b2Nb/29jW/9rX1v/a19X/19fW/9fW
+        1v/W1tX/2NbV/9jW1f/Y1tX/2NbV/9fV1P/X1dT/2dXU/9nV1P/Y1NP/1tTT/93b2v/d29r/3dva/93b
+        2v/d29r/3dva/9za2f/c2tn/3NrZ/93a1//Z2dj/2tnZ/9ra1//Z2dX/2dnV/9nZ1f/a2dX/2djU/9jX
+        1v/Z19b/2tbU/9nX1P/Y1tX/2NbV/9jW1f/Y1tX/19XU/9fV1P/X1dT/19XU/9bU0//W1NP/3dva/93b
+        2v/d29r/3dva/93b2v/d29r/3NrZ/9za2f/c2tn/3NrY/9ra2P/d2tf/3tnX/9zX1//c19f/29jX/9jY
+        1//Y19b/19fX/9rX1f/W1tb/19bV/9jW1f/Y1tX/2NbV/9jW1f/X1dT/19XU/9fV1P/X1dT/1tTT/9bU
+        0//d29r/3dva/93b2v/d29r/3dva/93b2v/c2tn/3NrZ/9za2f/b2tn/29rX/9bZ2f/V2dr/1tnY/9bY
+        1//X2Nf/2NjX/9fX1v/X19b/19jT/9LW2P/c19P/2NbV/9jW1f/Y1tX/2NbV/9fV1P/X1dT/19XU/9fV
+        1P/W1NP/1tTT/93b2v/d29r/3dva/93b2v/d29r/3dva/9za2f/c2tn/3NrZ/9za2f/b2tf/m6iy/2+I
+        nP9uh5z/boic/26InP9siJz/bYib/22HnP9viJv/cYie/83Q0//Y1tX/2NbV/9jW1f/Y1tX/19XU/9fV
+        1P/X1dT/19XU/9bU0//W1NP/3dva/93b2v/d29r/3dva/93b2v/d29r/3NrZ/9za2f/c2tn/3drY/9vZ
+        2v+Jn67/YX6V/2uDmv9ohJn/ZICV/1N2lP9qhJf/a4OY/2SEmP9TdI3/z9HT/9jW1f/Y1tX/2NbV/9jW
+        1f/X1dT/19XU/9fV1P/X1dT/1tTT/9bU0//d29r/3dva/93b2v/d29r/3dva/93b2v/c2tn/3NrZ/9za
+        2f/b29j/3dnX/5qstv+gscD/1NjZ/9PY1/+5w8r/gpWo/9PW3P/T1tz/ztPa/157k//W19T/2NbV/9jW
+        1f/Y1tX/2NbV/9fV1P/X1dT/19XU/9fV1P/W1NP/1tTT/93b2v/d29r/3dva/93b2v/d29r/3dva/9za
+        2f/c2tn/3NrZ/9va2f/c2tf/p7S8/4GXqv/W2Nj/2tjW/7vEyf+Al6b/19jW/9fZ1P/Aw8z/eI+h/9XW
+        1f/Y1tX/2NbV/9jW1f/Y1tX/19XU/9fV1P/X1dT/19XU/9bU0//W1NP/3dva/93b2v/d29r/3dva/93b
+        2v/d29r/3NrZ/9za2f/c2tn/3NrZ/9rZ2P/Eyc7/XHeN/9HX2//c2Nf/vcTJ/4CWp//a19b/2NjW/4ae
+        sf+brrb/2tXW/9jW1f/Y1tX/2NbV/9jW1f/X1dT/19XU/9fV1P/X1dT/1tTT/9bU0//d29r/3dva/93b
+        2v/d29r/3dva/93b2v/c2tn/3NrZ/9za2f/c29f/29nY/9zZ2P9xiaH/p7S9/9nX2v+8xcj/f5il/9rY
+        1f/By83/XHaN/8vO0v/X19X/2NbV/9jW1f/Y1tX/2NbV/9fV1P/X1dT/19XU/9fV1P/W1NP/1tTT/93b
+        2v/d29r/3dva/93b2v/d29r/3dva/9za2f/c2tn/3NrZ/9za2f/b2dj/29nY/7jAyf9ZeI7/vcTM/7rE
+        yf99lqn/0tLU/3iRpP97k6D/1dbW/9bX1P/Y1tX/2NbV/9jW1f/Y1tX/19XU/9fV1P/X1dT/19XU/9bU
+        0//W1NP/3dva/93b2v/d29r/3dva/93b2v/d29r/3NrZ/9za2f/c2tn/3NrZ/9vZ2P/b2dj/19rY/3+S
+        pf9aeZP/fpOp/2SEmv9shZj/Yn6U/8fN0v/Z1tb/2dbV/9jW1f/Y1tX/2NbV/9jW1f/X1dT/19XU/9fV
+        1P/X1dT/1tTT/9bU0//d29r/3dva/93b2v/d29r/3dva/93b2v/c2tn/3NrZ/9za2f/c2tn/29nY/9vZ
+        2P/Y2dj/0dXV/4ebqv9ZdI//THCM/2uHn/+6xMv/3dfV/9fW1f/Z1tX/2NbV/9jW1f/Y1tX/2NbV/9fV
+        1P/X1dT/19XU/9fV1P/W1NP/1tTT/93b2v/d29r/3dva/93b2v/d29r/3dva/9za2f/c2tn/3NrZ/9za
+        2f/b2dj/29nY/9zZ2P/Z2tT/2NfY/8fR0//Izs//09XV/9nX1v/c2NT/1tbV/9jX1P/Y1tX/2NbV/9jW
+        1f/Y1tX/19XU/9fV1P/X1dT/19XU/9bU0//W1NP/3dva/93b2v/d29r/3dva/93b2v/d29r/3NrZ/9za
+        2f/c2tn/3NrZ/9vZ2P/b2dj/29nZ/9jY1//Y19n/2tnU/9rY1v/b2NT/2djV/9bX1v/Y1tb/2NfT/9jW
+        1f/Y1tX/2NbV/9jW1f/X1dT/19XU/9fV1P/X1dT/1tTT/9bU0/8AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACgAAAAwAAAAYAAAAAEA
+        IAAAAAAAACQAAMMOAADDDgAAAAAAAAAAAADd29r/3dva/93b2v/d29r/3dva/93b2v/d29r/3dva/93b
+        2v/d29r/3NrZ/9za2f/c2tn/3dva/9za2f/b2dj/29nY/9rY1//b2dj/29nY/9rY1//a2Nf/2dfW/9rY
+        1//a2Nf/2dfW/9rY1//Z19b/2dfW/9jW1f/Y1tX/2dfW/9fV1P/Z19b/2NbV/9jW1f/Y1tX/19XU/9nX
+        1v/Y1tX/19XU/9bU0//X1dT/19XU/9fV1P/W1NP/1tTT/9bU0//d29r/3dva/93b2v/d29r/3dva/93b
+        2v/d29r/3dva/93b2v/Z19b/09HQ/9vZ2P/W1NP/29nY/9za2f/Qzs3/zszL/9vZ2P/Z19b/1NLR/9nX
+        1v/T0dD/1dPS/9nX1v/OzMv/ycfG/9jW1f/U0tH/2NbV/9HPzv/X1dT/0M7N/9jW1f/Y1tX/1NLR/9LQ
+        z//X1dT/1dPS/9HPzv/OzMv/19XU/9fV1P/X1dT/19XU/9fV1P/W1NP/1tTT/9bU0//d29n/3dva/93b
+        2v/d29v/3dvb/93b2v/d29r/3dva/9rY1/9jYWH/bmtr/9vZ2P+Ylpb/0M3O/9za2f+EgoL/Y2Bh/9DO
+        zv/KyMj/mpiY/9PR0P+GhIP/fnx7/9rY2P93dXX/h4WE/9rY1/+vraz/aGVn/5eVlP/Y1tX/iYeH/9jW
+        1f/Y1tT/qaem/46MjP/KyMj/x8XE/15cXP95d3b/19XU/9jW1P/X1dP/19XU/9fV1P/W1NT/1tTU/9bU
+        0//d29r/3dva/93b2v/d29v/3dvb/93b2v/d29r/3dva/93b2v9XVVb/kI6O/9za2f+FgoL/x8TG/9za
+        2f+XlZX/p6Wm/7a0tf/KyMf/mpiY/9LQ0P9JR0f/bGpq/9rY2P+KiIj/2NbW/9nX1v/Lycj/SkdJ/8XD
+        w//Y1tb/iIaG/9jW1f/X1tT/Xlxc/0tJSf/Lycj/2dfW/3Nxcf+ioKD/19XV/9fV1P/X1dT/19XU/9fV
+        1P/W1NT/1tTU/9bU0//d29r/3dva/93b2v/d29r/3dva/93b2v/d29r/3dva/93b2v93dHT/xMLC/9HP
+        zv9mZGT/oZ+g/9za2f+Ni4v/enh4/8XDw//KyMf/m5mY/9PR0P91c3P/iIaG/9rY2P+KiIj/2NbV/9nX
+        1v/T0dD/Z2Vl/9fV1f/EwsH/b21s/8vJyP/Y1tX/iIaG/3Rycf/Lycj/2NbV/3p4d//OzMz/19XU/9fW
+        0//X1dT/19XU/9fV1P/W1NP/1tTT/9bU0//d29r/3dva/93c2f/d3Nj/3dzZ/93b2v/d29r/3dva/93b
+        2f/GxMP/29nY/8fFxP+9u7r/wsC//9za2f+pp6b/oqCf/9rZ1//T0s//vLq5/9fV1P/DwcD/tbOy/9nX
+        1/+0srH/2NbV/9nX1v/Z19b/w8HA/9nX1v+ysK//g4GA/7+9vf/Y1tb/x8XF/8rIx//U0tD/2NbV/8LA
+        v//X1dT/19bT/9fW0v/X1dT/19XU/9fV0//W1dH/1tTS/9bU0//d29r/3dva/93b2P/d3Nj/3dvY/93b
+        2v/d29r/3dva/93c2P/d29n/3NrZ/9vZ2P/c2tn/3NrZ/9za2v/c2tn/2tnW/9va1//b2tb/29rW/9nY
+        1v/a2Nf/2tjX/9rY1//a2Nf/2dfW/9nX1v/Z19b/2tjX/9nX1v/Y1tX/2NbV/9jW1v/Y1tb/2NbW/9jW
+        1f/Z19b/2NbV/9nX1v/Y1tX/19bS/9fW0v/X1dT/19XU/9fW0v/V1ND/1tXS/9bU0//d29r/3dva/93b
+        2v/d29r/3dva/93b2//d29r/3dva/93b2f/d29n/29nY/9za2f/c2tn/3NrZ/9za2v/b2dj/29rX/9rZ
+        1//c2tn/2tjX/9rY1//a2Nf/2tjX/9rZ1v/a2Nf/2dfW/9rY1//Z19b/2NfV/9nX1v/Y1tX/2NbV/9jW
+        1v/Y1tb/2NbV/9nX1v/Y1tX/2NbV/9jW1f/W1NP/19bU/9fV1P/X1dT/19XU/9fV1P/W1NP/1tTS/9bU
+        0//d29r/3dva/93b2v/d29r/3tvc/93b3P/d29v/3dva/97c2//c2tn/3NrZ/9za2v/c2tr/3NrZ/9za
+        2f/b2dj/29nY/9vZ2f/c2tn/2tjX/9rY1//a2Nf/2tjX/9rY1//a2Nf/2dfW/9nX1//Z19f/2djV/9nX
+        1v/Y1tb/2NbW/9nX1v/Y1tX/2NbV/9jW1f/Y1tb/2dfW/9fV1P/Y1tX/19XV/9fV1v/X1dT/19XU/9bU
+        1P/W1NT/19XU/9bU0//d3Nn/3dva/9XT0/+Afn7/gH1//4B9f/+Afn7/j42N/9bU0//c2tn/19XU/4OB
+        gf+3tbT/3NrZ/9za2f/b2dj/0tDP/4OBgf+6uLj/2tjX/9nX1v+PjYz/trS0/9vZ2P/a2Nf/1NLR/4aE
+        hP+tq6r/2djV/9bU1P+HhYX/lZOT/9fV1f/Y1tX/2NbU/9jW1f+Ylpf/mJaW/9jW1f/X1dT/q6mq/5SR
+        lP/X1dP/19XU/9TS0v+EgoL/kI2O/9bU0//d29r/3dva/8zJyf8hHyL/IR8j/yIfI/8iHyH/ICAh/2Vl
+        Zf/b2tn/29va/ysqK/9gX2H/2dja/9va2f/Z2dn/o6Oj/yIhIf/Bv7//2tjY/9fV1f9BQEL/jo6N/9nY
+        1//a2db/z83N/zIuM/9/e37/2dfW/9jX1v9YWFj/JyYq/87Mzv/X1tX/1tbW/9DN0f8zMTL/gX9//9jW
+        1f/X1tP/fXx8/05NUP/Z1tP/2NbS/7i2tf8kISX/dXJ1/9fV1P/d29r/3dva/8zKyv8gHiH/Ly0w/zg2
+        N/84NTf/Kikr/yEhIv/Y1tb/2tnZ/1FRUf8wLzH/p6ao/66trf+trK3/YF9h/0RCQ//Z19f/2tjY/9fV
+        1f9AP0H/j4+O/9nY1//a2db/z83N/zMvM/9/fH7/2dfW/9jW1f+Qj5D/IB8i/4mHiv+qqqr/qqqq/46M
+        kP8mIyX/trSz/9jX1f/W1dL/fn19/05NUP/X1tP/19XU/6Cenv8kIiT/s7Cy/9bU0//d29r/3dva/8zK
+        yv8hHyL/l5aY/93b2//d29v/oqGj/yEgIv/FxMT/29nZ/4uKiv8fHyD/IB8h/yEgIP8gHyH/IB8h/3Z0
+        dv/b2dr/2tjY/9fV1f9AP0H/jo6O/9nY2P/a2db/z83N/zMvM/9/fX7/2dfW/9jW1f/Av7//Jyco/yAe
+        If8gHyD/IB8h/yAfI/88OTv/19XU/9jW1f/Y1tT/fnx8/05NT//X1dP/19TV/2BeYf9AQED/1NPS/9bU
+        0//d29r/3dva/83Lyv8hHyL/l5aY/93b2v/d29v/y8rM/yopLf+1s7T/3NrZ/8LAwP8kIyT/JSQm/ysq
+        K/8mJSf/IB8j/4yKi//b2dn/2tjY/9fV1f9AP0H/jo6O/9nY2P/a2Nb/z83N/zIvMf9/fX3/2dfW/9nX
+        1v/X1dX/SklL/yEgIv8qKSv/KSkq/yAfJP9ycHH/2NbW/9jW1f/X1dP/fnx9/0hISv/Bwr//uLe6/ywr
+        L/+Af4D/1dXT/9bU0//d29r/3dva/8zKyv8hHyL/mJaZ/93b2v/d29v/pKOl/yIhJf/DwsP/3NrZ/9nX
+        1v9GRUX/VVRX/7e1tv9kY2b/JCMn/7e2tv/b2dj/2tjY/9fV1f9AP0L/j46Q/9nY2P/Z2Nf/z83N/zIw
+        Mv9/fX3/2dfW/9nX1v/Y1tX/goCB/ysqLf+qqav/lJSV/yAfI/+VkpT/2NbV/9jW1f/X1tP/fnx8/yYl
+        KP83Nzf/NDM3/yAfI/+Li4z/1dTT/9bU0//d29r/3dva/8zKyv8hHyL/Ojg7/0hGRv9IRUf/MC8x/yEg
+        I//X1db/3NrZ/9za2P99e3v/NjQ4/9jW1/9nZmn/Pj1B/9bU1P/b2dj/2tjX/9fV1f9BQEP/NjY3/0ZG
+        R/9GRkb/RENF/yMiJf99fX7/2dfW/9nX1v/Y1tX/ube3/yMhI/+mpaf/ent8/yEgI/+zsbL/2NbV/9jW
+        1f/X1dP/fnx8/yAfIv8hICD/IR8i/yAfIv8rKiz/u7q6/9bU0//d29r/3dva/8zKyv8hHyL/IB8i/yIe
+        Iv8iHyL/IB8h/zEwMv/Z19j/3NrZ/9zb2P+0srL/JSIm/66trf89PD//c3J1/9va2P/a2db/2tjX/9fV
+        1f9BQET/IB8h/yAfIv8gHyH/Hx4h/yAeI/99fH7/2dfX/9nX1v/Y1tX/19XV/z08Pf9wcHH/XF1d/zg4
+        Ov/R0dD/2NbV/9jW1f/X1tP/fXx8/zY1OP97d3r/e3h6/2hnaf8hICP/dXN1/9bU0//d29r/3dva/8zK
+        yv8gHyH/UlBU/29sb/9vbG//QT9C/yIfI//V09P/3NrZ/9za2f/X1dX/Pjs9/1dWV/8jIyX/q6us/9vZ
+        2P/b2tf/2tnX/9fV1f9AP0P/Tk1P/21sbv9tbG7/aWdp/yclKf99fH7/2dfW/9nX1v/Y1tX/2dfX/1ZU
+        Vf85ODr/Ojs8/2pqa//X1tX/2NbU/9jW1P/X1tP/fnx9/09NUf/X1NX/19XT/9DOzf87OTz/SkhL/9bU
+        0//d29r/3dva/8vJyf8hHyH/mJeZ/93b2//d29v/ure5/yYiJ/+/vbz/3NrY/9za2f/c2tr/ZWNk/yEg
+        JP8uLi//19bW/9vZ2P/a2dj/2tnW/9fV1f9AP0P/jo6P/9jZ2P/a2Nj/z83N/zAvMf99fH7/2dfW/9nX
+        1v/Y1tX/2NbV/3x6e/8gHyL/ISAi/6Khof/Y1tX/2NbV/9jX1P/X1tP/f3x9/1BMUf/X1dT/19bT/9fV
+        1P9hXWH/Pzw//9bU0//d29r/3dva/8zKyv8hHyL/l5aY/9zb2v/c29r/y8rL/ysqK/+1tLL/3NrZ/9za
+        2f/c2tr/eXd3/yAfIv9kZGX/29nZ/9vZ2P/b2dn/2tnW/9fV1f9AP0P/jo6P/9jZ1//a2Nf/z83N/zIw
+        Mv99fH//2dfW/9nX1v/Y1tX/2NbV/7Kxsf8iISP/Li0v/83Ly//Y1tX/2dfW/9jW1P/X1dT/f3x9/1BM
+        Uf/X1dX/19XU/9bU1P9PS0//Qj5B/9bU0//d29r/3dva/8zKyv8hHiP/jIuP/8vLyv/Ly8r/ioqK/yAg
+        IP/Lycj/3NrZ/9za2f/b2dn/sK6u/yAfIf+KiYr/29nY/9vZ2P/b2dn/2tnX/9fV1f9BP0L/jo6O/9nZ
+        1v/a2Nf/z83N/zIwMf99fH7/2dfW/9nX1v/Y1tX/2NbV/9LQ0f86OTv/XVxc/9jW1v/Z19b/2NbV/9jW
+        1f/X1dT/f3x9/0xJS//Gxcb/xsXF/6qpqf8mJCf/YF1f/9fV1P/d29r/3dva/8zJyv8hHiL/IB4j/yAf
+        IP8gHyD/IB8h/ygoKf/Z19f/3NrZ/9za2f/c2tn/1tTU/zQzNP+mpaX/29nY/9vZ2P/b2dn/2tnX/9fW
+        1P9CP0L/j46O/9nZ1v/a2Nf/z83N/zIwMf99fH7/2dfW/9nX1v/Y1tX/2NbV/9fW1v9tbGz/kI6O/9jW
+        1f/Y1tX/2NbV/9jW1f/X1dT/fnx8/yIfIf8gHyH/ICAg/yAgIP8jIiT/oZ+g/9bU0//d29r/3dva/8zK
+        yv8hHyH/IB8j/yAfIf8gHyH/JiUn/4B/gf/b2tr/3NrZ/9za2f/c2tn/29nY/3l3eP/Pzc3/29nY/9vZ
+        2P/b2dn/2tnX/9fW1P9CQEH/kI6O/9rY1//a2Nf/0M3M/zIwMP99fX3/2dfW/9nX1v/Y1tX/2NbV/9jW
+        1f+lo6P/pqSk/9jW1f/Y1tX/2NbV/9jW1f/X1dT/f319/yIgIf8iICH/IiAh/yQjI/9mZGX/09DR/9bU
+        0//d29r/3dva/9jW1f+npab/pqWm/6empv+npqb/r66u/9rY2P/c2tr/3NrZ/9za2f/c2tn/3NvY/87M
+        zP/a2Nf/3NrZ/9vZ2P/b2dn/2tnX/9nY1v+vrK3/xcPD/9rY1//a2Nf/19TT/6qoqP++vr3/2dfW/9nX
+        1v/Y1tX/2NbV/9jW1f/S0M//0c/O/9jW1f/Y1tX/2NbV/9jW1f/X1dT/vry7/6Ohof+joaH/o6Gh/6el
+        pf/Pzc3/1tTU/9bU0//d29r/3dva/93b2//c29r/3Nva/93c2f/d3Nn/3dva/93b2//c2tn/3NrZ/9za
+        2f/c29j/3NvX/9za2f/b2dj/29nY/9vZ2P/b2dn/2tnX/9rY1v/a2Nj/2tjX/9rY2P/a2Nf/29fW/9rX
+        1v/Y2NX/2dfW/9nX1v/Y1tX/2NbV/9jW1f/Z19b/2NbV/9jW1f/Y1tX/2NbV/9jW1f/X1dT/19XU/9fV
+        1f/X1dT/19XU/9fV1f/W1NT/1tTT/9bU0//d29r/3dva/93b2v/d29r/3dva/93b2v/d29r/3dva/93b
+        2v/c2tn/3NrZ/9za2f/c2tn/3NrZ/9vZ2f/b2df/3drW/9za1v/c2tf/3NnW/9zZ1f/c2db/29nV/9nZ
+        1f/Y2dX/2NjV/9fY1P/Y2NT/3NnS/9nX1f/Y1tX/2NbV/9fX1f/Y1tX/2NbV/9jW1f/Y1tX/2NbV/9jW
+        1f/X1dT/19XU/9jV1P/Z1dT/2dXU/9jV1P/X1NP/19TT/9bU0//d29r/3dva/93b2v/d29r/3dva/93b
+        2v/d29r/3dva/93b2v/d29r/3NrZ/9za2f/c2tn/3NrZ/9za2f/b2dj/29nY/9na2P/b2dj/3NjY/9zX
+        2P/b19f/29fX/9zX1//c19j/3NbX/9vW1v/b19f/19fX/9XX1//W1df/1tbW/9bW1f/Y1tX/2NbV/9jW
+        1f/Y1tX/2NbV/9jW1f/X1dT/19XU/9fV1P/Z1dT/2dXU/9nV1P/Y1NP/19TT/9bU0//d29r/3dva/93b
+        2v/d29r/3dva/93b2v/d29r/3dva/93b2v/d29r/3NrZ/9za2f/c2tn/3NrZ/93b1//Z2tj/2dja/9nZ
+        2f/a2tj/19rW/9fa1f/X2tX/19rV/9nZ1f/a2dX/2djU/9nY1P/Z2NX/19fY/9nX1v/a1tT/2tfT/9nW
+        1P/Y1tX/2NbV/9jW1f/Y1tX/2NbV/9jW1f/X1dT/19XU/9fV1P/X1dT/19XU/9fV1P/W1NP/1tTT/9bU
+        0//d29r/3dva/93b2v/d29r/3dva/93b2v/d29r/3dva/93b2v/c2tn/3NrZ/9za2f/c2tn/3NrZ/93b
+        1v/Z2tj/2dnZ/9zZ2P/e2db/3dnW/93Y1f/d2NX/3djV/9vZ1f/a2dX/2djU/9nY1P/Z2NT/2NbY/9vX
+        1P/a19P/2tbV/9nX1P/Y1tX/2NbV/9jW1f/Y1tX/2NbV/9jW1f/X1dT/19XU/9fV1P/X1dT/19XU/9fV
+        1P/W1NP/1tTT/9bU0//d29r/3dva/93b2v/d29r/3dva/93b2v/d29r/3dva/93b2v/c2tn/3NrZ/9za
+        2f/c2tn/3NrZ/9va2f/a2tj/29nY/9/a1v/e2db/3NjY/9zX2P/c19j/3NfY/9nY2P/Y2Nj/19fX/9fX
+        1//X19f/2NfX/9rX1P/V1tf/1NbY/9fW1f/Y1tX/2NbV/9jW1f/Y1tX/2NbV/9jW1f/X1dT/19XU/9fV
+        1P/X1dT/19XU/9fV1P/W1NP/1tTT/9bU0//d29r/3dva/93b2v/d29r/3dva/93b2v/d29r/3dva/93b
+        2v/c2tn/3NrZ/9za2f/c2tn/3NrZ/9ra2v/b2df/2trW/9na2f/X2dj/2NrW/9jZ1v/X2db/19nW/9nZ
+        1v/Z2dX/2NjV/9jY1f/Z2NX/2tjT/9rY0f/U1tb/19fV/93Y0v/Y1tX/2NbV/9jW1f/Y1tX/2NbV/9jW
+        1f/X1dT/19XU/9fV1P/X1dT/19XU/9fV1P/W1NP/1tTT/9bU0//d29r/3dva/93b2v/d29r/3dva/93b
+        2v/d29r/3dva/93b2v/c2tn/3NrZ/9za2f/c2tn/3NrZ/9va2f/c2tb/19nY/7/J0P+6yNH/v8jO/77I
+        zv+/yM7/v8jO/8DHzv/Ax87/wMbN/8DGzf+/xs3/vMfM/73HzP+4xc//yMzR/9zX0v/Y1tX/2NbV/9jW
+        1f/Y1tX/2NbV/9jW1f/X1dT/19XU/9fV1P/X1dT/19XU/9fV1P/W1NP/1tTT/9bU0//d29r/3dva/93b
+        2v/d29r/3dva/93b2v/d29r/3dva/93b2v/c2tn/3NrZ/9za2f/c2tn/3NrZ/93a2f/c2tf/0dXX/2t+
+        jf9TcIj/UG+K/1Bvif9QcIr/UHCK/09xif9LcIv/T3CJ/05xiP9PcIn/UW+J/1Fwif9Rb4v/iZqu/9XW
+        1//Y1tX/2NbV/9jW1f/Y1tX/2NbV/9jW1f/X1dT/19XU/9fV1P/X1dT/19XU/9fV1P/W1NP/1tTT/9bU
+        0//d29r/3dva/93b2v/d29r/3dva/93b2v/d29r/3dva/93b2v/c2tn/3NrZ/9za2f/c2tn/3NrZ/97a
+        2P/c2dn/09jc/2OBlv9OcYn/U2+L/1Rvif9QcYj/UHCL/1FxiP9Cb5L/VXCI/1Nxhv9TcIj/UXCI/01y
+        iP9LcYr/kJ2y/9XX0//Y1tX/2NbV/9jW1f/Y1tX/2NbV/9jW1f/X1dT/19XU/9fV1P/X1dT/19XU/9fV
+        1P/W1NP/1tTT/9bU0//d29r/3dva/93b2v/d29r/3dva/93b2v/d29r/3dva/93b2v/c2tn/3NrZ/9za
+        2f/c2tn/3NrZ/9vb1//c2df/2tna/22KnP+EnLD/tMHM/7XByv+zwsj/ssHK/5epuP9Uc5D/s73O/7PA
+        y/+0v8z/sr/N/6q9y/9McYr/mae4/9nY0f/Y1tX/2NbV/9jW1f/Y1tX/2NbV/9jW1f/X1dT/19XU/9fV
+        1P/X1dT/19XU/9fV1P/W1NP/1tTT/9bU0//d29r/3dva/93b2v/d29r/3dva/93b2v/d29r/3dva/93b
+        2v/c2tn/3NrZ/9za2f/c2tn/3NrZ/9rb1//c2tb/3NnY/3+ZqP+EmKz/09nZ/9nZ2P/X2Nb/1djW/664
+        wv9deI7/0dPb/9bX2f/X19r/19fY/83R2v9RcIn/qbbB/9jY0v/Y1tX/2NbV/9jW1f/Y1tX/2NbV/9jW
+        1f/X1dT/19XU/9fV1P/X1dT/19XU/9fV1P/W1NP/1tTT/9bU0//d29r/3dva/93b2v/d29r/3dva/93b
+        2v/d29r/3dva/93b2v/c2tn/3NrZ/9za2f/c2tn/3NrZ/9ra2f/d2df/2drY/42hrv9mgJf/0Njb/9nY
+        2P/b2Nf/2NnW/626wv9ZeIz/0dXY/9nZ1f/Y2NX/2tjS/7rAzf9Xcon/v8nN/9bX1P/Y1tX/2NbV/9jW
+        1f/Y1tX/2NbV/9jW1f/X1dT/19XU/9fV1P/X1dT/19XU/9fV1P/W1NP/1tTT/9bU0//d29r/3dva/93b
+        2v/d29r/3dva/93b2v/d29r/3dva/93b2v/c2tn/3NrZ/9za2f/c2tn/3NrZ/9vZ2v/d2Nn/1dvZ/56q
+        tf9Tcor/tMHL/9fY2P/b19j/2djW/6y5wv9XeI3/0tXZ/9rY1f/Y2NX/2djW/4uhtf9lg5X/0dTU/9nU
+        1//Y1tX/2NbV/9jW1f/Y1tX/2NbV/9jW1f/X1dT/19XU/9fV1P/X1dT/19XU/9fV1P/W1NP/1tTT/9bU
+        0//d29r/3dva/93b2v/d29r/3dva/93b2v/d29r/3dva/93b2v/c2tn/3NrZ/9za2f/c2tn/3NrZ/9za
+        2P/c2Nn/1NrY/8XIzv9Vcor/lKa1/9bY2f/c19f/2tnW/6+6wv9ZeI3/09XZ/9zX1f/Z2Nb/zNHY/1t8
+        lP+Joq3/2NfW/9rU1//Y1tX/2NbV/9jW1f/Y1tX/2NbV/9jW1f/X1dT/19XU/9fV1P/X1dT/19XU/9fV
+        1P/W1NP/1tTT/9bU0//d29r/3dva/93b2v/d29r/3dva/93b2v/d29r/3dva/93b2v/c2tn/3NrZ/9za
+        2f/c2tn/3NrZ/9zb1v/b2dj/2trX/9vZ2P9ziqH/aoKY/83U1//a19r/2NnZ/666wP9YeYv/09bX/9zY
+        1P/U2NX/lKa1/1Ryi/+8xcz/2NXV/9jW1f/Y1tX/2NbV/9jW1f/Y1tX/2NbV/9jW1f/X1dT/19XU/9fV
+        1P/X1dT/19XU/9fV1P/W1NP/1tTT/9bU0//d29r/3dva/93b2v/d29r/3dva/93b2v/d29r/3dva/93b
+        2v/c2tn/3NrZ/9za2f/c2tn/3NrZ/9zb1//b2dj/3NnY/9zZ2P+wusj/V3KK/4uirv/X1dn/2NjW/626
+        wP9Wd4//09bX/9vX1f/EztH/VnaO/2V+jv/T1dn/2NbV/9XX0//Y1tX/2NbV/9jW1f/Y1tX/2NbV/9jW
+        1f/X1dT/19XU/9fV1P/X1dT/19XU/9fV1P/W1NP/1tTT/9bU0//d29r/3dva/93b2v/d29r/3dva/93b
+        2v/d29r/3dva/93b2v/c2tn/3NrZ/9za2f/c2tn/3NrZ/9za2f/b2dj/29nY/9za2f/V19r/fJGi/1Fy
+        iv+frbz/0dfa/626w/9Yd4//0dbX/8fM0/94j5//UnKJ/5+xuf/U1tf/2NbU/9bX1P/Y1tX/2NbV/9jW
+        1f/Y1tX/2NbV/9jW1f/X1dT/19XU/9fV1P/X1dT/19XU/9fV1P/W1NP/1tTT/9bU0//d29r/3dva/93b
+        2v/d29r/3dva/93b2v/d29r/3dva/93b2v/c2tn/3NrZ/9za2f/c2tn/3NrZ/9za2f/b2dj/29nY/9vZ
+        2P/a2tf/s77F/1l0j/9TdZH/h5uv/5Gkt/9Vdo//obS9/2mBlf9OcIv/hJmo/87U2P/Y1tb/2NbV/9jW
+        1f/Y1tX/2NbV/9jW1f/Y1tX/2NbV/9jW1f/X1dT/19XU/9fV1P/X1dT/19XU/9fV1P/W1NP/1tTT/9bU
+        0//d29r/3dva/93b2v/d29r/3dva/93b2v/d29r/3dva/93b2v/c2tn/3NrZ/9za2f/c2tn/3NrZ/9za
+        2f/b2dj/29nY/9vZ2P/Z2tf/1NjZ/6Sxv/9YeI//UW6M/1NvjP9Hb4//TXGJ/05vjP9thpr/yNLX/9zW
+        1//a1tX/19bW/9vW1f/Y1tX/2NbV/9jW1f/Y1tX/2NbV/9jW1f/X1dT/19XU/9fV1P/X1dT/19XU/9fV
+        1P/W1NP/1tTT/9bU0//d29r/3dva/93b2v/d29r/3dva/93b2v/d29r/3dva/93b2v/c2tn/3NrZ/9za
+        2f/c2tn/3NrZ/9za2f/b2dj/29nY/9vZ2P/Z2dj/2NnY/9bZ1v+tusL/coic/1Zyi/9OcIr/WnmQ/4ie
+        s//HzdL/1NjW/+DX0//Y19X/1dbW/9rW1f/Y1tX/2NbV/9jW1f/Y1tX/2NbV/9jW1f/X1dT/19XU/9fV
+        1P/X1dT/19XU/9fV1P/W1NP/1tTT/9bU0//d29r/3dva/93b2v/d29r/3dva/93b2v/d29r/3dva/93b
+        2v/c2tn/3NrZ/9za2f/c2tn/3NrZ/9za2f/b2dj/29nY/9vZ2P/c2Nj/29rW/9nb0v/Z2Nf/y9PW/7vK
+        0f+9yc7/xM3P/9LW2v/a1tf/2NnU/97Y0//X1tT/1dfW/9nW1P/Y1tX/2NbV/9jW1f/Y1tX/2NbV/9jW
+        1f/X1dT/19XU/9fV1P/X1dT/19XU/9fV1P/W1NP/1tTT/9bU0//d29r/3dva/93b2v/d29r/3dva/93b
+        2v/d29r/3dva/93b2v/c2tn/3NrZ/9za2f/c2tn/3NrZ/9za2f/b2dj/29nY/9vZ2P/c2dj/29nW/9fZ
+        1v/b19j/2tnU/9ja1P/c2dT/3djS/9zY0v/a19b/2dfW/9nY1f/Y1tb/2NbV/9jX0//Y1tX/2NbV/9jW
+        1f/Y1tX/2NbV/9jW1f/X1dT/19XU/9fV1P/X1dT/19XU/9fV1P/W1NP/1tTT/9bU0//d29r/3dva/93b
+        2v/d29r/3dva/93b2v/d29r/3dva/93b2v/c2tn/3NrZ/9za2f/c2tn/3NrZ/9za2f/b2dj/29nY/9vZ
+        2P/a2dn/2NjY/9jY2P/W19v/2NjX/9vZ1P/Z19b/1tbZ/9vZ1P/X2dP/2tfX/9XW1v/X1db/2tbU/9jY
+        0v/Y1tX/2NbV/9jW1f/Y1tX/2NbV/9jW1f/X1dT/19XU/9fV1P/X1dT/19XU/9fV1P/W1NP/1tTT/9bU
+        0/8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+</value>
+  </data>
+</root>
